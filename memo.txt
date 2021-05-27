@@ -1,0 +1,4 @@
+ส่วนที่ต้องแก้ไขถ้าจะ deploy
+1. ลบ proxy อยู่ใน package.json ของ client
+2. เพิ่ม ตัวแปร url ในหน้าที่มีการ request ทุกหน้า
+"proxy": "http://localhost:8080/"

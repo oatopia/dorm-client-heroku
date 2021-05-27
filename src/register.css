@@ -1,0 +1,112 @@
+.navbar-register-container{
+  box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.container-register {
+  /* background-image: url("./img/baregister.png");
+      background-size: cover;
+      background-attachment: fixed; */
+  /* background-color: #e9eaec; */
+  width: 100%;
+  /* height: 100%; */
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* min-height: 100vh; */
+}
+.container1-register {
+  margin: auto;
+  display: flex;
+  width: 50%;
+}
+
+.form1 {
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+  background-color: white;
+  box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form1 p{
+  margin-bottom: 0px;
+}
+
+.img {
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#head-register {
+  color: #0e57c5;
+  margin: 0px;
+}
+
+
+
+.input-text-register {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-top: -25px;
+  font-size: 18px;
+  outline: none;
+  transition-duration: 0.3s;
+}
+.input-text-register:focus{
+  border: 1px solid #0e57c5;
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition-duration: 0.3s;
+}
+
+
+.buttonregister-register {
+  width: 100%;
+  height: 50px;
+  background-color: #0e57c5;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition-duration: 0.3s;
+}
+
+.buttonregister-register:hover{
+  cursor: pointer;
+  background-color: #002a61;
+  transition-duration: 0.3s;
+}
+
+
+.type:focus{
+  border: 1px solid #0e57c5;
+}
+
+select.type {
+  width: 60%;
+  font-size: 17px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  background-color: #e8e8e8;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.error-text{
+  /* margin-top: 20px; */
+  color: red;
+  font-size: 20px;
+  margin-top: -5px;
+}

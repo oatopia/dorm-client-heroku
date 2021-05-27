@@ -1,0 +1,198 @@
+.content-factor-Admin h1{
+    margin-top: 20px;
+    color: #0475AD;
+}
+
+.factor-box-Admin{
+    width:80%;
+    /* height: 100px; */
+    background-color: #d0e5f5;
+    margin-top: 10px;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+input.factor-info{
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+}
+input.factor-info:focus{
+    border: 2px solid #1655a7;
+}
+
+.factor-name-title{
+    margin-left: 20px;
+    
+}
+
+.factor-title{
+    color: #083774;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.factor-name{
+    margin-top: -10px;
+    color: #0e4fa3;
+    font-size: 26px;
+}
+
+.content2-factor-Admin{
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+}
+
+.clear-factor-Admin{
+    clear:both;
+}
+
+#fname{
+    margin-right: 20px;
+}
+
+.add-factor-Admin{
+    /* width: 200px; */
+    /* height: 100px; */
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #1655a7;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.add-factor-Admin:hover{
+   background-color:#083774;
+   transition-duration: 0.3s;
+}
+
+.add-box{
+    /* position: absolute; */
+    width: 90%;
+    height: 120px;
+    background-color: #8ac4d0;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.factor-inner-box-Admin{
+    display: flex;
+    align-items: center;
+}
+
+.icon-factor-Admin{
+    margin-right: 20px;
+}
+
+.factor-icon-box-Admin{
+    display: flex;
+    align-items: center;
+}
+
+#edit-input{
+    width: 300px;
+    height: 40px;
+}
+
+.edit-image{
+    width: 200px;
+    margin-left: 20px;
+    /* height: 40px; */
+}
+
+.edit-mini-box{
+    display: flex;
+    align-items: center;
+}
+.h1-factor-Admin{
+    margin-left: 50px;
+}
+
+.text-factor-name{
+    height: 30px;
+    /* width: 300px; */
+    margin-right: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+
+.file-factor-image{
+    height: 30px;
+}
+
+.btn-save-factor{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: #1655a7;
+    margin-right: 10px;
+
+}
+
+.add-btn-adminfac{
+    margin-right: 10px
+}
+
+.save-edit-button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #0050b9;
+    border: none;
+    cursor: pointer;
+}
+
+.box-text-add-factor{
+    display: flex;
+}
+
+.text-add-factor{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.text-factor-box{
+    display: flex;
+    align-items: center;
+}
+
+.text-factor-box h4{
+    color: #0e4fa3;
+}
+
+.input-text-edit-contain{
+    margin-left: 20px;
+    width: 40%;
+}
+
+#edit-input-title{
+    margin-bottom: 20px;
+}

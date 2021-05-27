@@ -1,0 +1,277 @@
+
+.dormdata-container {
+  padding-bottom: 20px;
+}
+
+.table-room-data-detail-container,.table-room-data-detail-container tr, .table-room-data-detail-container td{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-collapse: collapse;
+  border: 1px solid rgb(187, 187, 187);
+  text-align: center;
+}
+.table-room-data-detail-container p{
+  font-size: 20px;
+}
+
+.box-input-price-data-detail{
+  font-size: 20px;
+}
+#dorm-name-data{
+  font-size: 32px;
+  color: rgb(66, 66, 66);
+}
+
+.box-input-price-data-detail p{
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.content-dorm-container{
+  padding-bottom: 20px;
+}
+
+.box-info h1{
+  color: #1655a7;
+}
+.box-info h2{
+  color: #1655a7;
+}
+
+.box-info span{
+  font-weight: bold;
+  color: #18365e;
+}
+
+.line-dorm-data{
+  width: 98%;
+  height: 1.5px;
+  background-color: #e6e6e6;
+}
+
+.block-detail h2{
+  display: inline-block;
+  margin-right: 10px;
+  color: #1655a7;
+}
+.block-detail h3{
+  color: #274772;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 26px;
+}
+.block-detail h4{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(29, 29, 29);
+}
+
+
+.table-cost-dorm-data{
+  margin-left: 10px;
+}
+
+.table-cost-dorm-data td{
+  padding: 10px;
+
+}
+
+
+.table-dorm-data h4{
+  color: rgb(29, 29, 29);
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.detail-block h2{
+  color: #1655a7;
+}
+.detail-block h4{
+  font-size: 20px;
+  color: rgb(29, 29, 29);
+  font-weight: normal;
+}
+
+.box-inner-data {
+  margin-top: 20px;
+  text-align: start;
+}
+
+.img-dorm-data {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.box-fac-data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-fac-data h3{
+  color: #18365e;
+  font-size: 26px;
+  margin-bottom: -15px;
+}
+
+.table-contact-dorm-data td{
+  padding: 10px;
+}
+
+.box-fac-data li{
+  color: rgb(29, 29, 29);
+  font-size: 22px;
+}
+
+.edit-button-container {
+  text-align: center;
+}
+
+.button-edit-dormcontainer{
+  text-align: center;
+}
+
+.but-edit-dorm {
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(250, 244, 244);
+  background-color: #1655a7;
+  margin-top: 40px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.but-edit-dorm:hover{
+  transition-duration: 0.3s;
+  background-color:#002a61;  
+}
+
+/* -------------------------------------------------show dorm detail-------------------------------------------------- */
+
+
+table.table-edit-dorm-data,.table-dorm-data td, .table-dorm-data tr{
+  padding: 10px;
+}
+
+.table-dorm-data input{
+  margin-right: 10px;
+}
+
+.save-edit-btn-container{
+  text-align: center;
+}
+
+.save-edit-dorm {
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(250, 244, 244);
+  background-color: #1655a7;
+  margin-top: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.but-edit-dorm:hover{
+  transition-duration: 0.3s;
+  background-color:#002a61;  
+}
+
+
+.delete-btn-room-table-edit{
+  color: rgb(231, 5, 5);
+}
+
+
+.dormdata-container{
+    /* background-image: url("./img/operatorbackground.jpg"); */
+    padding-bottom: 20px;
+    
+}
+
+.box-dorm-data{
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 20px;
+    border: 1px solid rgb(218, 218, 218);
+
+}
+
+.typedorm {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+#faci {
+  font-size: 28px;
+}
+
+#contact {
+  font-size: 28px;
+}
+
+.box-fac-data li {
+  color: rgb(75, 75, 75);
+  font-size: 20px;
+}
+.dormdata-container h2{
+  margin-top: 15px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.Image-edit-dorm{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Image-edit-block{
+    width: 200px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.Edit-heading{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Delete-Icon{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    width: 30px;
+    height: 30px;
+}
+
+.edit-image-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.file-input-edit{
+    width: 500px;
+    /* height: 100px; */
+    margin-bottom: 20px;
+}

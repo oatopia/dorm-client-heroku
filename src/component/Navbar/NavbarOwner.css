@@ -1,0 +1,105 @@
+
+.NavOwner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.home-menu{
+    font-size: 26px;
+    color: #1655a7;
+}
+
+.profile-NavOwner{
+    /* background-color: #F1EDED; */
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    transition-duration: 0.5s;
+    background-color: #0e57c5;
+}
+
+
+
+img.profilelogo{
+    margin-right: -10px;
+}
+
+#but-owner{
+    border: none;
+    background-color: #a2d0c1;
+    font-size: 18px;
+    color:  #214151;
+    border-radius: 5px;
+    height: 50px;
+    transition-duration: 0.5s;
+}
+
+#but-owner:hover{
+    color: #eff7e1;
+    background-color: #214151;
+    transition-duration: 0.5s;
+}
+
+.NavOwner-container2{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+.select-profile p{
+    color: white;
+}
+
+.select-profile:hover{
+    width: 200px;
+}
+
+
+.profile-content-owner{
+    background-color: #0e57c5;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.profile-content-owner p{
+    color: white;
+    margin-left: 20px;
+    
+}
+
+#dropdown-owner-page{
+    color: white;
+    font-weight: normal;
+    font-size: 26px; 
+    transition-duration:0.5s;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu-p-owner{
+    font-size: 26px;
+  color: #1655a7;
+  margin-right: 10px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,112 @@
+
+.owner-login-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.content-owner-login-container {
+  display: flex;
+  /* width: fit-content; */
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.form-owner-login {
+  width: 20%;
+  border-radius: 10px 0 0 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  /* padding-bottom: 20px; */
+}
+
+#h-1{
+  color: #0e57c5;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+#h-2{
+  color: #0e57c5;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.username-head{
+  margin-bottom: 10px;
+}
+
+.text-input-owner-login {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 3px;
+  height: auto;
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+  transition-duration: 0.3s;
+}
+
+.text-input-owner-login:focus {
+  border: 1px solid #0e57c5;
+  transition-duration: 0.3s;
+}
+
+.button-login-owner {
+  width: 100%;
+  height: 50px;
+  background-color: #0e57c5;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+.button-login-owner:hover{
+  background-color: #002a61;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.button-register-owner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+  background-color: #3dae25;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+} 
+
+.button-register-owner:hover {
+  background-color: #1f830b;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.Navbar-login-owner-container{
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-container-loginowner{
+  width: 20%;
+}
+
+.img-loginowner{
+  width: 100%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}

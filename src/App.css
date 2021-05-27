@@ -1,0 +1,45 @@
+/* *{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  
+}
+
+.appcontainer{
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 145vh;
+}
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+
+.searchinput{
+  width: 40%;
+  height: 40px;
+  border-radius: 5px 0 0 5px ;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.searchbutton{
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  right: 5px;
+  background-color: #1BA0E2;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  width: 100px;
+  font-size: 18px;
+  
+} */

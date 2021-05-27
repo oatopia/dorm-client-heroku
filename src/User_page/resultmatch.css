@@ -1,0 +1,33 @@
+
+.Dorm-block{
+    width: 50%;
+    height: 200px;
+    background-color: coral;
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-icon{
+    transition-duration: 0.5s; 
+}
+
+.book-icon:hover{
+ transform: scale(1.1);
+ transition-duration: 0.5s;
+}
+
+.dorm-list-contain{
+    margin-top: 30px;
+}
+
+/* .dorm-container{
+    z-index: -1;
+} */
+
+/* .book-icon:hover{
+    transform: scale(1);
+    transition-duration: 0.3s;
+} */
+
+
